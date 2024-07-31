@@ -12,7 +12,7 @@ export const addPost = async (formData: FormData) => {
       Accept: "application/json",
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ body: content, userId: 2 }),
+    body: JSON.stringify({ body: content, userId: 5 }),
   });
-  revalidatePath("/", "page");
+  revalidatePath("/");
 };

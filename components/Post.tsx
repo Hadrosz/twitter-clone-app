@@ -17,7 +17,7 @@ export const Post = ({ post }: any) => {
           <div className="flex gap-1">
             <h2 className="font-bold">{post.user.name}</h2>
             {post.user.verified ? (
-              <VerifiedSVG width="18" color="black" />
+              <VerifiedSVG width="16" color="black" />
             ) : (
               <></>
             )}

@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className=" border-x-[1px]  border-x-slate-2S00">
+    <main className=" border-x-[1px]  border-x-slate-200">
       <ComposePost />
       <ListPosts />
     </main>

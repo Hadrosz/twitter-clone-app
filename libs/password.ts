@@ -6,6 +6,6 @@ export const createPassword = (password: string) => {
 };
 
 export const getPassword = (hashed: string, password: string) => {
-  const isMatch = bcrypt.compare(hashed, password);
+  const isMatch = bcrypt.compare(password, hashed);
   return isMatch;
 };

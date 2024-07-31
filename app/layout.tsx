@@ -3,6 +3,8 @@ import { inter } from "@/app/font";
 import "./globals.css";
 import { Navigation } from "@/components/Navigation";
 import { Sidebar } from "@/components/Sidebar";
+import { Toaster } from "sonner";
+import { createContext } from "react";
 
 export const metadata: Metadata = {
   title: "Twitter",
@@ -23,6 +25,7 @@ export default function RootLayout({
           {children}
           <Sidebar />
         </section>
+        <Toaster position="bottom-right" richColors />
       </body>
     </html>
   );

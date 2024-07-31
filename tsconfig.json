@@ -28,7 +28,7 @@
     ".next/types/**/*.ts",
     "components/Icons.jsx",
     "app/api/user/[username]/route.js",
-    "app/api/user/route.Js",
+    "app/api/user/route.js",
     "app/api/post/route.js",
     "app/account/signup/page.tsx"
   ],
